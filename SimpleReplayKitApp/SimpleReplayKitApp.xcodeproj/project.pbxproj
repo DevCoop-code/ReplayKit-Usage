@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78C05E4121D37AD4006C1141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C05E4021D37AD4006C1141 /* AppDelegate.m */; };
+		78C05E4421D37AD4006C1141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C05E4321D37AD4006C1141 /* ViewController.m */; };
+		78C05E4721D37AD4006C1141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C05E4521D37AD4006C1141 /* Main.storyboard */; };
+		78C05E4921D37AD6006C1141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C05E4821D37AD6006C1141 /* Assets.xcassets */; };
+		78C05E4C21D37AD6006C1141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C05E4A21D37AD6006C1141 /* LaunchScreen.storyboard */; };
+		78C05E4F21D37AD6006C1141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C05E4E21D37AD6006C1141 /* main.m */; };
+		78C05E5921D37AD6006C1141 /* SimpleReplayKitAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C05E5821D37AD6006C1141 /* SimpleReplayKitAppTests.m */; };
+		78C05E6521D37B3E006C1141 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C05E6421D37B3E006C1141 /* ReplayKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78C05E5521D37AD6006C1141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C05E3421D37AD4006C1141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C05E3B21D37AD4006C1141;
+			remoteInfo = SimpleReplayKitApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78C05E3C21D37AD4006C1141 /* SimpleReplayKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleReplayKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C05E3F21D37AD4006C1141 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78C05E4021D37AD4006C1141 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78C05E4221D37AD4006C1141 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78C05E4321D37AD4006C1141 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78C05E4621D37AD4006C1141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78C05E4821D37AD6006C1141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78C05E4B21D37AD6006C1141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78C05E4D21D37AD6006C1141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C05E4E21D37AD6006C1141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78C05E5421D37AD6006C1141 /* SimpleReplayKitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleReplayKitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C05E5821D37AD6006C1141 /* SimpleReplayKitAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleReplayKitAppTests.m; sourceTree = "<group>"; };
+		78C05E5A21D37AD6006C1141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C05E6421D37B3E006C1141 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78C05E3921D37AD4006C1141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C05E6521D37B3E006C1141 /* ReplayKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C05E5121D37AD6006C1141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78C05E3321D37AD4006C1141 = {
+			isa = PBXGroup;
+			children = (
+				78C05E3E21D37AD4006C1141 /* SimpleReplayKitApp */,
+				78C05E5721D37AD6006C1141 /* SimpleReplayKitAppTests */,
+				78C05E3D21D37AD4006C1141 /* Products */,
+				78C05E6321D37B3E006C1141 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78C05E3D21D37AD4006C1141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C05E3C21D37AD4006C1141 /* SimpleReplayKitApp.app */,
+				78C05E5421D37AD6006C1141 /* SimpleReplayKitAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C05E3E21D37AD4006C1141 /* SimpleReplayKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				78C05E3F21D37AD4006C1141 /* AppDelegate.h */,
+				78C05E4021D37AD4006C1141 /* AppDelegate.m */,
+				78C05E4221D37AD4006C1141 /* ViewController.h */,
+				78C05E4321D37AD4006C1141 /* ViewController.m */,
+				78C05E4521D37AD4006C1141 /* Main.storyboard */,
+				78C05E4821D37AD6006C1141 /* Assets.xcassets */,
+				78C05E4A21D37AD6006C1141 /* LaunchScreen.storyboard */,
+				78C05E4D21D37AD6006C1141 /* Info.plist */,
+				78C05E4E21D37AD6006C1141 /* main.m */,
+			);
+			path = SimpleReplayKitApp;
+			sourceTree = "<group>";
+		};
+		78C05E5721D37AD6006C1141 /* SimpleReplayKitAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				78C05E5821D37AD6006C1141 /* SimpleReplayKitAppTests.m */,
+				78C05E5A21D37AD6006C1141 /* Info.plist */,
+			);
+			path = SimpleReplayKitAppTests;
+			sourceTree = "<group>";
+		};
+		78C05E6321D37B3E006C1141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78C05E6421D37B3E006C1141 /* ReplayKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78C05E3B21D37AD4006C1141 /* SimpleReplayKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C05E5D21D37AD6006C1141 /* Build configuration list for PBXNativeTarget "SimpleReplayKitApp" */;
+			buildPhases = (
+				78C05E3821D37AD4006C1141 /* Sources */,
+				78C05E3921D37AD4006C1141 /* Frameworks */,
+				78C05E3A21D37AD4006C1141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleReplayKitApp;
+			productName = SimpleReplayKitApp;
+			productReference = 78C05E3C21D37AD4006C1141 /* SimpleReplayKitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78C05E5321D37AD6006C1141 /* SimpleReplayKitAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C05E6021D37AD6006C1141 /* Build configuration list for PBXNativeTarget "SimpleReplayKitAppTests" */;
+			buildPhases = (
+				78C05E5021D37AD6006C1141 /* Sources */,
+				78C05E5121D37AD6006C1141 /* Frameworks */,
+				78C05E5221D37AD6006C1141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C05E5621D37AD6006C1141 /* PBXTargetDependency */,
+			);
+			name = SimpleReplayKitAppTests;
+			productName = SimpleReplayKitAppTests;
+			productReference = 78C05E5421D37AD6006C1141 /* SimpleReplayKitAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78C05E3421D37AD4006C1141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = HanGyoJeong;
+				TargetAttributes = {
+					78C05E3B21D37AD4006C1141 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					78C05E5321D37AD6006C1141 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 78C05E3B21D37AD4006C1141;
+					};
+				};
+			};
+			buildConfigurationList = 78C05E3721D37AD4006C1141 /* Build configuration list for PBXProject "SimpleReplayKitApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78C05E3321D37AD4006C1141;
+			productRefGroup = 78C05E3D21D37AD4006C1141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78C05E3B21D37AD4006C1141 /* SimpleReplayKitApp */,
+				78C05E5321D37AD6006C1141 /* SimpleReplayKitAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78C05E3A21D37AD4006C1141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C05E4C21D37AD6006C1141 /* LaunchScreen.storyboard in Resources */,
+				78C05E4921D37AD6006C1141 /* Assets.xcassets in Resources */,
+				78C05E4721D37AD4006C1141 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C05E5221D37AD6006C1141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78C05E3821D37AD4006C1141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C05E4421D37AD4006C1141 /* ViewController.m in Sources */,
+				78C05E4F21D37AD6006C1141 /* main.m in Sources */,
+				78C05E4121D37AD4006C1141 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C05E5021D37AD6006C1141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C05E5921D37AD6006C1141 /* SimpleReplayKitAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78C05E5621D37AD6006C1141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78C05E3B21D37AD4006C1141 /* SimpleReplayKitApp */;
+			targetProxy = 78C05E5521D37AD6006C1141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78C05E4521D37AD4006C1141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C05E4621D37AD4006C1141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78C05E4A21D37AD6006C1141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C05E4B21D37AD6006C1141 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78C05E5B21D37AD6006C1141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78C05E5C21D37AD6006C1141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78C05E5E21D37AD6006C1141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYV3CSY2F3;
+				INFOPLIST_FILE = SimpleReplayKitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.hangyojeong.SimpleReplayKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78C05E5F21D37AD6006C1141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYV3CSY2F3;
+				INFOPLIST_FILE = SimpleReplayKitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.hangyojeong.SimpleReplayKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78C05E6121D37AD6006C1141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleReplayKitAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.hangyojeong.SimpleReplayKitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleReplayKitApp.app/SimpleReplayKitApp";
+			};
+			name = Debug;
+		};
+		78C05E6221D37AD6006C1141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleReplayKitAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.hangyojeong.SimpleReplayKitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleReplayKitApp.app/SimpleReplayKitApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78C05E3721D37AD4006C1141 /* Build configuration list for PBXProject "SimpleReplayKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C05E5B21D37AD6006C1141 /* Debug */,
+				78C05E5C21D37AD6006C1141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C05E5D21D37AD6006C1141 /* Build configuration list for PBXNativeTarget "SimpleReplayKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C05E5E21D37AD6006C1141 /* Debug */,
+				78C05E5F21D37AD6006C1141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C05E6021D37AD6006C1141 /* Build configuration list for PBXNativeTarget "SimpleReplayKitAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C05E6121D37AD6006C1141 /* Debug */,
+				78C05E6221D37AD6006C1141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78C05E3421D37AD4006C1141 /* Project object */;
+}
